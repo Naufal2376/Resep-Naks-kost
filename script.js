@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.querySelector(".navbar")
   window.addEventListener("scroll", function () {
     if (window.scrollY > 50) {
-      navbar.style.background = "#b71c1c"
+      navbar.style.background = "rgba(255, 255, 255, 0.8)"
     } else {
-      navbar.style.background = "#d32f2f"
+      navbar.style.background = "white"
     }
   })
 

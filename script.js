@@ -1,3 +1,8 @@
+document.querySelector(".hamburger").addEventListener("click", function () {
+  this.classList.toggle("active")
+  document.querySelector(".nav-links").classList.toggle("active")
+})
+
 document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.querySelector(".navbar")
   const searchBox = document.querySelector(".search-box")
